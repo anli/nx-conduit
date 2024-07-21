@@ -1,0 +1,9 @@
+{
+  "name": "conduit",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/conduit/src",
+  "projectType": "application",
+  "tags": ["type:app"],
+  "// targets": "to see all targets run: nx show project conduit --web",
+  "targets": {}
+}
