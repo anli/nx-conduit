@@ -28,11 +28,20 @@
     "@expo/metro-config": "*",
     "react-native-svg-transformer": "*",
     "react": "*",
-    "expo-build-properties": "*"
+    "expo-build-properties": "*",
+    "expo-router": "*",
+    "react-native-safe-area-context": "*",
+    "react-native-screens": "*",
+    "expo-linking": "*",
+    "expo-constants": "*",
+    "expo-status-bar": "*"
   },
   "scripts": {
     "eas-build-pre-install": "cd ../../ && node tools/scripts/eas-build-pre-install.mjs . apps/conduit && cp yarn.lock apps/conduit",
-    "eas-build-post-install": "cd ../../ && node tools/scripts/eas-build-post-install.mjs . apps/conduit"
+    "eas-build-post-install": "cd ../../ && node tools/scripts/eas-build-post-install.mjs . apps/conduit",
+    "android": "expo run:android",
+    "ios": "expo run:ios"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "main": "index.js"
 }
