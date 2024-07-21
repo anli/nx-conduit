@@ -1,17 +1,13 @@
-import { View, Text, StyleSheet } from 'react-native';
+import { View } from 'react-native';
+import { Appbar } from 'react-native-paper';
 
 export default () => {
   return (
-    <View style={styles.container}>
-      <Text>Tab [Home|Settings]</Text>
+    <View>
+      <Appbar.Header mode="large">
+        <Appbar.Content title="Home" />
+        <Appbar.Action icon="bell-outline" />
+      </Appbar.Header>
     </View>
   );
 };
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-});
