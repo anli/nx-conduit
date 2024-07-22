@@ -38,7 +38,9 @@
     "@expo/vector-icons": "*",
     "react-native-paper": "*",
     "@react-navigation/native": "*",
-    "expo-system-ui": "*"
+    "expo-system-ui": "*",
+    "react-native-paper-tabs": "*",
+    "react-native-pager-view": "*"
   },
   "scripts": {
     "eas-build-pre-install": "cd ../../ && node tools/scripts/eas-build-pre-install.mjs . apps/conduit && cp yarn.lock apps/conduit",
