@@ -40,7 +40,8 @@
     "@react-navigation/native": "*",
     "expo-system-ui": "*",
     "react-native-paper-tabs": "*",
-    "react-native-pager-view": "*"
+    "react-native-pager-view": "*",
+    "@tanstack/react-query": "*"
   },
   "scripts": {
     "eas-build-pre-install": "cd ../../ && node tools/scripts/eas-build-pre-install.mjs . apps/conduit && cp yarn.lock apps/conduit",
